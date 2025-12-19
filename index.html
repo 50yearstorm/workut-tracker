@@ -1,0 +1,34 @@
+        <div class="row">
+          <button class="btn" id="importBtn">Import backup (JSON)</button>
+          <input type="file" id="importJsonFile" accept="application/json" style="display:none"/>
+        </div>
+
+        <div class="hr"></div>
+
+        <h3>How this works</h3>
+        <ul>
+          <li>Your logs are saved on this device (localStorage).</li>
+          <li>Use Export weekly so you don’t lose data if your browser clears storage.</li>
+          <li>If you want cloud sync later, we can connect this to Google Sheets.</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h2>GitHub Pages publish (quick steps)</h2>
+        <ol>
+          <li>Create a new GitHub repository named <b>workout-tracker</b>.</li>
+          <li>Upload these files: <b>index.html</b>, <b>styles.css</b>, <b>app.js</b>.</li>
+          <li>In GitHub: Settings → Pages → “Deploy from a branch” → Branch: <b>main</b> → folder: <b>/(root)</b>.</li>
+          <li>Wait for the Pages URL, then open it on your phone.</li>
+        </ol>
+      </div>
+    </section>
+  </main>
+
+  <footer class="container">
+    <p class="hint">Made for quick daily execution. If you skip a day, just resume the next scheduled workout.</p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
